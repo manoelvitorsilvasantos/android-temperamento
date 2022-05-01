@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="@color/bgcolor">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:onClick="s">
+
+		<ImageView
+			android:layout_height="64dp"
+			android:layout_width="64dp"
+			android:src="@drawable/sanguineo"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Sangüineo"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:padding="10dp"
+			android:id="@+id/textoSang"
+			android:textSize="25sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:onClick="c">
+
+		<ImageView
+			android:layout_height="64dp"
+			android:layout_width="64dp"
+			android:src="@drawable/colerico"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Colérico"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:padding="10dp"
+			android:id="@+id/textoCole"
+			android:textSize="25sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:onClick="m">
+
+		<ImageView
+			android:layout_height="64dp"
+			android:layout_width="64dp"
+			android:src="@drawable/melancolico"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Melancólico"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:padding="10dp"
+			android:id="@+id/textoMela"
+			android:textSize="25sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:onClick="f">
+
+		<ImageView
+			android:layout_height="64dp"
+			android:layout_width="64dp"
+			android:src="@drawable/fleumatico"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Fleumático"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:padding="10dp"
+			android:id="@+id/textoFleu"
+			android:textSize="25sp"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Novo Teste"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:onClick="voltar"/>
+
+</LinearLayout>
+

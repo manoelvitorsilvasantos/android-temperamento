@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperance</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="page_html">
+		<![CDATA[
+		<h2>Sobre a aplicativo</h2>
+		<p>
+		   Descubra qual a porcentagem de cada uns dos
+		   quatros temperamento. Esse aplicativo não intu&iacute;to
+		   de estabelecer definitamente a sua personalidade, apenas
+		   fazer uma estimativa aproximada com base nas perguntas respondidas, contudo isto foi baseado na forma que voc&ecirc;
+		   se comportaria em certas ocasi&otilde;es, pegando esses padr&otilde;es
+		   e realizando um calculo para ter uma estimativa
+		   aproximada, de acordo com as respostas do question&aacute,rio que você responde.
+		<br>
+		Novas atualiza&ccedil;&otilde;es estar&atilde; disponivel por meio desse link:<br>
+		<a style="background:transparent;color:#FFFFFF; text-decoration:none;" href="https://mvictor10.github.io/ibed-prototipo/about.html">BAIXE AQUI</a><br>
+		</p>
+		<h4>Equipe de Desenvolvimento</h4>
+		<p><span style="color:red;">Desenvolvedor:</span> Manoel Vitor</p>
+		<p><span style="color:red;">Designer e Layout:</span> Manoel Vitor</p>
+		<p><span style="color:red;">Sugestões/Designer:</span> Erivelton</p>
+		<h3>Redes Sociais</h3>
+		<p>
+			Email:<a href="mailto:mvictordossantos@gmail.com">mvictordossantos@gmail.com</a><br>
+			Telegram: <a href="https://t.me/joinchat/_ZiO0g1KGRQ0ZGQ5">GRUPO TELEGRAM</a><br>
+			Instagram: <a href="http://instagram.com/mvictor.limite">@mvictor.limite</a>
+		</p>
+		<p>
+			Esse aplicativo foi baseado no Livro, temperamento
+			controlado pelo Espir&iacute;to Santo Porfavor recomendo que leia
+			o livro, por sinal um &oacute;timo livro. Novamente, Esse aplicativo
+			possibilita uma estimativa n&atilde;o define com 100% de precis&atilde;o.
+		</p>
+		<p>Github: <a style="background:transparent;color:#FFFFFF; text-decoration:none;" href="https://mvictor10.github.io/ibed-prototipo/about.html">Mvictor10</a><br></p>
+		<h3>Todos Direitos Reservados para Manoel Vitor.</h3>
+		]]>
+	</string>
+	<string name="sanguineo_html">
+		<![CDATA[
+			<h2>Sanguineo</h2>
+			<h4>Caracteristicas:</h4>
+			<p>
+				As pessoas de temperamento sangu&iacute;neo s&atilde;o verdadeiramente animadas,
+				vivas, calorosas e de f&aacute;cil conviv&ecir;ncia. O sangu&iacute;neo &eacute;
+				extremamente recetivo aos sentimentos, formando as suas decis&otilde;es a partir
+				dos mesmos.
+			</p>
+
+			<p>
+				<span style="font-weight="700">O sanguin&eacute;neo &eacute; extrovertido</span>. 
+				As  pessoas com este temperamento 
+				s&atilde;o considerados super extrovertidas, isto porque d&atilde;o-se com todos, 
+				desfrutam de si mesmo e contagiam os outros com o seu esp&iacute;rito animado e
+				amante das divers&otilde;es. S&atilde;o aquele tipo de pessoa que quando entra na
+				sala, anima todos os presentes atrav&eacute;s da sua presen&ccedil;a e conversa
+				exuberante.
+			</p>
+
+			<p>
+				<span style="font-weight="700">O sangu&iacute;neo gosta de estar com pessoas</span>. 
+				O sangu&iacute;neo &eacute; um fant&aacute;stico contador de hist&oacute;rias e por
+				causa da sua natureza emocional at&eacute; parece que estamos a viver a hist&oacute;ria
+				que est&aacute; a contar. Tem sempre amigos ao seu redor e consegue sentir genuinamente
+				as alegrias e tristezas dos mesmos, tendo a capacidade de fazer com que cada pessoa se
+				sinta importante (como um amigo especial), pelos menos enquanto lhes estiver a prestar
+				aten&ccedil;&atilde;o.
+			</p>
+
+			<p>
+				<span style="font-weight="700">O sangu&iacute;neo &eacute; en&eacute;rgico</span>. 
+				&rdquo;Uma pessoa sangu&iacute;nea sempre entra numa sala com a boca em primeiro
+				lugar&rdquo; &eacute; uma frase que o descreve na perfei&ccedil;&atilde;o. &Eacute; 
+				barulhento e ruidoso, o que o faz parecer mais confiante do que na realidade &eacute;,
+				no entanto &eacute; essa energia e disposi&ccedil;&atilde;o que o fazem atravessar as
+				dificuldades da vida.
+			</p>
+
+			<h4>Pontos Fortes e Fracos</h4>
+			<p>
+				Normalmente, o sangu&iacute;neo &eacute; falador, expressivo, cordial, amig&aacute;vel,
+				comunicativo, entusiasta e compreensivo, pontos fortes do seu temperamento.	
+			</p>
+
+			<p>
+				Em termos de pontos fracos o sangu&iacute;neo &eacute; 
+				indisciplinado, emocionalmente inst&aacute;vel, improdutivo
+				, egoc&ecirc;trico e exagerado.
+				<br>
+				Clique <a href="https://educamais.com/temperamento-sanguineo-pontos-fortes-e-pontos-fracos/">aqui</a> para saber mais.
+			</p>
+		]]>
+	</string>
+	<string name="colerico_html">
+		<![CDATA[
+			<h4>Col&eacute;rico</h4>
+			<h4>Caracteristicas:</h4>
+			<p>
+				A pessoa do temperamento col&eacute;rico &eacute; dotado de vontade
+				forte, auto-suficiente e muito indepedente. O col&eacute;rico 
+				&eacute; ativo e bastante pr&aacute;tico.
+			</p>
+			<p>
+				A pessoa com temperamento col&eacute;rico tem opini&otilde;es
+				bastante fortes, &eacute; decisivo, considera que &eacute; f&aacute;cil 
+				tomar decis&otilde;es, muitas vezes pelas outras pessoas. Este
+				temperamento &eacute; considerado extrovertido, &agrave; semelhan&ccedil;a
+				sangu&iacute;neo, mas n&atilde;o de forma t&atilde;o intensa.
+			</p>
+			<h4>Pontos Fortes e Fracos</h4>
+			<p>
+				Vontade forte, esp&iacute;rito pr&aacute;tico, produtivo e decidido s&atilde;o alguns dos pontos fortes.
+				Este temperamento tamb&eacute;m &eacute; independente, vision&aacute;rio e l&iacute;der.
+			</p>
+			<p>
+				Por outro lado, o temperamento col&eacute;rico tamb&eacute;m 
+				pode ser cruel, irado, sarc&aacute;stico, vingativo, dominador 
+				e impetuoso. &Eacute; auto-suficiente e muitas vezes insens&iacute;vel.
+				<br>
+				Clique <a href="https://educamais.com/temperamento-colerico-pontos-fortes-e-pontos-fracos/">aqui</a> para saber mais.
+			</p>
+		]]>
+	</string>
+	<string name="melancolico_html">
+		<![CDATA[
+		<meta charset="utf-8">
+		<h2>Melanc&oacute;lico</h2>
+		<h4>Caracteristicas:</h4>
+		<p>
+			Melanc&oacute;lico &eacute; provavelmente o mais rico de todos os tempos.
+			As pessoas de temperamento melanc&oacute;lico s&atilde;o perfecionistas, 
+			anal&iacute;ticas, sacrificiais e de uma natureza extremamente sens&iacute;vel.
+		</p>
+
+		<p>
+			<span style="font-weight="700">Melancólico é introvertido</span>. 
+			Por natureza, o melancólico é uma pessoa introvertida, 
+			mas como é muito emotivo, muitas vezes apresenta comportamentos 
+			diferentes. Por exemplo, se estiver muito feliz age como extrovertido, 
+			mas quando triste ou deprimido vai mostrar a sua faceta melancólica e 
+			irá recolher-se.exuberante.
+		</p>
+
+		<p>
+			<span style="font-weight="700">Melancólico é amigo fiel</span>. 
+			A pessoa predominantemente melancólica é amiga de forma fiel,<br>
+			mas não faz amigos com facilidade. Dificilmente procura novas <br>
+			amizades, aguarda que as pessoas venham ter consigo. Mais do que <br>
+			qualquer outro tipo de temperamento, o melancólico tem um forte <br>
+			desejo de ser amado e deseja relacionar-se, mas acha difícil <br>
+			expressar os seus sentimentos. É desconfiado quando pessoas ou <br>
+			experiências o desapontaram e encara com suspeita quando lhe <br>
+			dedicam muita atenção.
+		</p>
+
+		<p>
+			<span style="font-weight="700">O sangu&iacute;neo &eacute; en&eacute;rgico</span>. <br>
+			&rdquo;Uma pessoa sangu&iacute;nea sempre entra numa sala com a boca em primeiro<br>
+			lugar&rdquo; &eacute; uma frase que o descreve na perfei&ccedil;&atilde;o. &Eacute; <br>
+			barulhento e ruidoso, o que o faz parecer mais confiante do que na realidade &eacute;,<br>
+			no entanto &eacute; essa energia e disposi&ccedil;&atilde;o que o fazem atravessar as<br>
+			dificuldades da vida.
+		</p>
+
+		<h4>Pontos Fortes e Fracos</h4>
+		<p>
+			Em termos de pontos fortes a pessoa de temperamento melancólico é:<br>			
+			Talentosa;<br>
+			Analítica;<br>
+			Estética;<br>
+			Habilidosa;<br>
+			Auto-disciplinada;<br>
+			Sensível;<br>
+			Sacrificial;<br>
+			Por outro lado, o melancólico típico apresenta os seguintes pontos fracos, 
+			que necessita de trabalhar para atingir o seu potencial máximo:<br>
+			Autocentralizado;<br>
+			Desconfiado;<br>
+			Susceptível;<br>
+			Vingativo;<br>
+			Mal-humorado;<br>
+			Crítico;<br>
+			Teórico;<br>
+			Pessimista;<br>
+			Não social.<br>
+		</p>
+
+		<p>
+			Clique <a href="https://educamais.com/temperamento-melancolico-pontos-fortes-e-pontos-fracos/">aqui</a> para saber mais.
+		</p>
+
+		]]>
+	</string>
+	<string name="fleumatico_html">
+		<![CDATA[
+		<meta charset="utf-8">
+		<h2>Fleum&aacute;tico</h2>
+		<h4>Caracteristicas:</h4>
+		<p>
+			Fleumático é o tipo de temperamento com quem é mais fácil 
+			relacionar-se. As pessoas de temperamento fleumático são 
+			calmas, descontraídas, raramente ficam perturbado ou zangadas.
+		</p>
+
+		<p>
+			<span style="font-weight="700">O Fleumático é equilibrado</span>. 
+			Para o fleumático a vida é uma experiência calma, equilibrada, 
+			feliz e sem grande agitação, na qual se envolve o menos possível. 
+			É o tipo de temperamento que se mostra sempre coerente, sempre 
+			calmo e tranquilo independentemente das circunstâncias à sua volta. 
+			Aprecia as belas artes e é mais emotivo do que aparenta. 
+			Habitualmente evita a violência.
+		</p>
+
+		<p>
+			<span style="font-weight="700">O Fleumático tem um sentido de humor particular</span>. 
+			O fleumático tem bastantes amigos, gosta de estar com as pessoas e 
+			tem um sentido de humor particular: pode ter uma multidão a rir-se ao seu redor, 
+			mas ele consegue manter-se sério.Pode ser um excelente imitador e tem a capacidade 
+			de encontrar algo humorístico nas outras pessoas e nas coisas que elas fazem.
+		</p>
+
+		<p>
+			<span style="font-weight="700">O Fleumático é reservado</span>. 
+			Por norma, pessoas com este tipo de temperamento não se envolvem<br>
+			nas actividades dos outros, aliás, dificilmente agem fora da sua rotina.<br>
+			No entanto isto não quer dizer que não reaja perante injustiças sociais.<br>
+			É simpatizante das outras pessoas e das suas necessidades, mas dificilmente <br>
+			partilha os seus sentimentos. Por escolha nunca será líder, mas se essa <br>
+			posição lhe for imposta, demonstra ser um líder eficiente e conciliador.<br>
+		</p>
+		<p>
+			Clique <a href="https://educamais.com/temperamento-fleumatico-pontos-fortes-e-pontos-fracos/">aqui</a> para saber mais.
+		</p>
+
+		]]>
+	</string>
+</resources>

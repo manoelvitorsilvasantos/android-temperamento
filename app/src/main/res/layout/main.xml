@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+	
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="@color/bgcolor">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Responda sozinho"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:maxLines="4"
+			android:singleLine="true"
+			android:ellipsize="end"
+			android:textStyle="bold"
+			android:textColor="@color/black"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="1)Primeiro Questionário "
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:ellipsize="end"
+			android:textStyle="bold"
+			android:textColor="#000000"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Cordial"
+			android:textColor="#000000"
+			android:id="@+id/pfs1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Alegre"
+			android:textColor="#000000"
+			android:id="@+id/pfs2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Contagiante"
+			android:textColor="#000000"
+			android:id="@+id/pfs3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Bem Humorado"
+			android:textColor="#000000"
+			android:id="@+id/pfs4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Extrovertido"
+			android:textColor="#000000"
+			android:id="@+id/pfs5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Estimulante"
+			android:textColor="#000000"
+			android:id="@+id/pfs6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 -Bondoso"
+			android:textColor="#000000"
+			android:id="@+id/pfs7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Emotivo"
+			android:textColor="#000000"
+			android:id="@+id/pfs8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Espontâneo"
+			android:textColor="#000000"
+			android:id="@+id/pfs9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Ingênuo"
+			android:textColor="#000000"
+			android:id="@+id/pfs10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Faz amizade c/ Facilidade."
+			android:textColor="#373737"
+			android:id="@+id/pfs11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Tem relacionamento profundo c/ as pessoas"
+			android:textColor="#000000"
+			android:id="@+id/pfs12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Mais coração do que Razão"
+			android:textColor="#141414"
+			android:id="@+id/pfs13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Relaciona-se bem"
+			android:textColor="#141414"
+			android:id="@+id/pfs14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - gosta de crianças"
+			android:textColor="#121212"
+			android:id="@+id/pfs15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Esquece as coisas desagradáveis facilmente."
+			android:textColor="#242424"
+			android:id="@+id/pfs16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Síncero"
+			android:textColor="#101010"
+			android:id="@+id/pfs17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Anima as pessoas"
+			android:textColor="#000000"
+			android:id="@+id/pfs18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Participa c/  entusiasmo de novos planos"
+			android:textColor="#000000"
+			android:id="@+id/pfs19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Barulhento"
+			android:textColor="#040404"
+			android:id="@+id/pfs20"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="21 - Espanhafatoso"
+			android:textColor="#000000"
+			android:id="@+id/pfs21"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="22 - Curiosidade Infantil"
+			android:textColor="#373737"
+			android:id="@+id/pfs22"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="23 - Sensível c/ as necessidades do próximo"
+			android:textColor="#000000"
+			android:id="@+id/pfs23"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="24 - Desperta de bom Humor"
+			android:textColor="#141414"
+			android:id="@+id/pfs24"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="25 - Otimista"
+			android:textColor="#141414"
+			android:id="@+id/pfs25"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="26 - Vive p/ o presente"
+			android:textColor="#121212"
+			android:id="@+id/pfs26"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="27 - Não se sentem temeroso pelo futuro"
+			android:textColor="#242424"
+			android:id="@+id/pfs27"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="28 - Não gosta de estar só"
+			android:textColor="#101010"
+			android:id="@+id/pfs28"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="29 - Fala antes de pensar"
+			android:textColor="#000000"
+			android:id="@+id/pfs29"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="30 - Terno &amp; Compassivo"
+			android:textColor="#000000"
+			android:id="@+id/pfs30"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 2) Segundo Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:textColor="#000000"
+			android:padding="10dp"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Pouco prático e Desorganizado"
+			android:textColor="#000000"
+			android:id="@+id/pns1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Age sem pensar"
+			android:textColor="#000000"
+			android:id="@+id/pns2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Tendência a lascívia"
+			android:textColor="#000000"
+			android:id="@+id/pns3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Dificuldade para concentra-se em leitura ou tarefas que exigam atenção"
+			android:textColor="#000000"
+			android:id="@+id/pns4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Pouco produtivo"
+			android:textColor="#000000"
+			android:id="@+id/pns5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Indisciplinado"
+			android:textColor="#000000"
+			android:id="@+id/pns6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Começa e não termina seus planos"
+			android:textColor="#000000"
+			android:id="@+id/pns7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Responde e se compromete sem pensar, não cumpre."
+			android:textColor="#000000"
+			android:id="@+id/pns8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Turbulento"
+			android:textColor="#000000"
+			android:id="@+id/pns9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Não reconhece suas limitações"
+			android:textColor="#000000"
+			android:id="@+id/pns10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Não cumpre horàrios e compromissos."
+			android:textColor="#373737"
+			android:id="@+id/pns11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Pode alterar seus príncipios morais devido ao Ambiente que o cerca."
+			android:textColor="#000000"
+			android:id="@+id/pns12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Não é Leal"
+			android:textColor="#141414"
+			android:id="@+id/pns13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Egoísta"
+			android:textColor="#141414"
+			android:id="@+id/pns14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Dominador de conversa, não dá a vez aos outros."
+			android:textColor="#121212"
+			android:id="@+id/pns15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Instável Emocionamente."
+			android:textColor="#242424"
+			android:id="@+id/pns16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Desanima-sr facilmente."
+			android:textColor="#101010"
+			android:id="@+id/pns17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Tem explosões de Ira e em seguida esquece afetando os outros."
+			android:textColor="#000000"
+			android:id="@+id/pns18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Se arrepende diversas vezes pelo mesmo motivo."
+			android:textColor="#000000"
+			android:id="@+id/pns19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Vontade Fraca o faz ceder a tentação."
+			android:textColor="#040404"
+			android:id="@+id/pns20"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 3) Terceiro Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:textColor="#180605"
+			android:padding="10dp"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Temperamento Forte."
+			android:textColor="#000000"
+			android:id="@+id/pfc1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Ativo"
+			android:textColor="#000000"
+			android:id="@+id/pfc2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Prático"
+			android:textColor="#000000"
+			android:id="@+id/pfc3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Voluntarioso"
+			android:textColor="#000000"
+			android:id="@+id/pfc4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Auto-Suficiente"
+			android:textColor="#000000"
+			android:id="@+id/pfc5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Indepedente"
+			android:textColor="#000000"
+			android:id="@+id/pfc6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Decidido"
+			android:textColor="#000000"
+			android:id="@+id/pfc7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Facilidade de tomar decisões"
+			android:textColor="#000000"
+			android:id="@+id/pfc8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Vibra com muitas atividades"
+			android:textColor="#000000"
+			android:id="@+id/pfc9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Pouco influenciado pelo meio"
+			android:textColor="#000000"
+			android:id="@+id/pfc10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Influenciado do meio."
+			android:textColor="#373737"
+			android:id="@+id/pfc11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Não se amedronta nas adversidades, torna-se em desafios."
+			android:textColor="#000000"
+			android:id="@+id/pfc12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Não é dado a detalhes"
+			android:textColor="#141414"
+			android:id="@+id/pfc13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Cerébro perspicaz"
+			android:textColor="#141414"
+			android:id="@+id/pfc14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Não vacila sobre pressão"
+			android:textColor="#121212"
+			android:id="@+id/pfc15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Seu sucesso resulta mais de sua deterninação e persistência, do que de planejamento."
+			android:textColor="#242424"
+			android:id="@+id/pfc16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Objetivo"
+			android:textColor="#101010"
+			android:id="@+id/pfc17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Apresenta sugestões, Ideías"
+			android:textColor="#000000"
+			android:id="@+id/pfc18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Líder Nato"
+			android:textColor="#000000"
+			android:id="@+id/pfc19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Insistente"
+			android:textColor="#040404"
+			android:id="@+id/pfc20"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="21 - Intuitivo"
+			android:textColor="#000000"
+			android:id="@+id/pfc21"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="22 - Não liga muito para Artes"
+			android:textColor="#373737"
+			android:id="@+id/pfc22"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="23 - Mais razão do que coração"
+			android:textColor="#000000"
+			android:id="@+id/pfc23"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="24 - Extrovertido"
+			android:textColor="#141414"
+			android:id="@+id/pfc24"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="25 - Firme"
+			android:textColor="#141414"
+			android:id="@+id/pfc25"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="26 - Não se abala facilmente com críticas"
+			android:textColor="#121212"
+			android:id="@+id/pfc26"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="27 - Auto-Disciplinado"
+			android:textColor="#242424"
+			android:id="@+id/pfc27"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="28 - Geralmente otimista"
+			android:textColor="#101010"
+			android:id="@+id/pfc28"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="29 - Gosta do desafio do desconhecido"
+			android:textColor="#000000"
+			android:id="@+id/pfc29"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="30 - Se interresa pelo aspecto prático da vida."
+			android:textColor="#000000"
+			android:id="@+id/pfc30"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 4) Quarto Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:textColor="#000000"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Insensível"
+			android:textColor="#000000"
+			android:id="@+id/pnc1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Irado"
+			android:textColor="#000000"
+			android:id="@+id/pnc2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Com impetuosidade Danosa"
+			android:textColor="#000000"
+			android:id="@+id/pnc3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Infrige a Lei ou Direito de Outros para atigir os seus próprios objectivos."
+			android:textColor="#000000"
+			android:id="@+id/pnc4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Sem compaixão Cristã"
+			android:textColor="#000000"
+			android:id="@+id/pnc5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Indiferente aos anseios das outras pessoas."
+			android:textColor="#000000"
+			android:id="@+id/pnc6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Agressivo"
+			android:textColor="#000000"
+			android:id="@+id/pnc7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Guarda Rancor"
+			android:textColor="#000000"
+			android:id="@+id/pnc8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Vingativo"
+			android:textColor="#000000"
+			android:id="@+id/pnc9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Tende a ter úlcera"
+			android:textColor="#000000"
+			android:id="@+id/pnc10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Cruel"
+			android:textColor="#373737"
+			android:id="@+id/pnc11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Mete-se em apuros pela sua Impetuosidade."
+			android:textColor="#000000"
+			android:id="@+id/pnc12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Dificilmente pede desculpas"
+			android:textColor="#141414"
+			android:id="@+id/pnc13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Profere declarações Cruéis,  Sarcásticas"
+			android:textColor="#141414"
+			android:id="@+id/pnc14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Age tiranicamente sobre os sentimentos dos outros."
+			android:textColor="#121212"
+			android:id="@+id/pnc15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Orgulhoso"
+			android:textColor="#242424"
+			android:id="@+id/pnc16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Arrogante"
+			android:textColor="#101010"
+			android:id="@+id/pnc17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Tem dificuldade para concentra-se quando ora ou lê a Bíblia."
+			android:textColor="#000000"
+			android:id="@+id/pnc18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Frusta os outros porque nunca o satisfazem"
+			android:textColor="#000000"
+			android:id="@+id/pnc19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Prepotente"
+			android:textColor="#040404"
+			android:id="@+id/pnc20"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 5) Quinto Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:textColor="#000000"
+			android:typeface="sans"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Analítico"
+			android:textColor="#000000"
+			android:id="@+id/pfm1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Abnegado"
+			android:textColor="#000000"
+			android:id="@+id/pfm2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Perfeccionista"
+			android:textColor="#000000"
+			android:id="@+id/pfm3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Apreciador de Artes"
+			android:textColor="#000000"
+			android:id="@+id/pfm4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Introvertido"
+			android:textColor="#000000"
+			android:id="@+id/pfm5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - E todo coração"
+			android:textColor="#000000"
+			android:id="@+id/pfm6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Não desaponta os que depedem dele."
+			android:textColor="#000000"
+			android:id="@+id/pfm7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Não faz amigos com facilidade"
+			android:textColor="#000000"
+			android:id="@+id/pfm8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Amigo Fiel"
+			android:textColor="#000000"
+			android:id="@+id/pfm9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Bom diagnosticador de problemas"
+			android:textColor="#000000"
+			android:id="@+id/pfm10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Pessoa de confiança"
+			android:textColor="#373737"
+			android:id="@+id/pfm11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Não procura as pessoas, deixam que elas o procurem."
+			android:textColor="#000000"
+			android:id="@+id/pfm12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Consegue prever os obstáculos de um projecto."
+			android:textColor="#141414"
+			android:id="@+id/pfm13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Tem confiança em sua capacidade"
+			android:textColor="#141414"
+			android:id="@+id/pfm14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Sensibilidade e Talento Artístico"
+			android:textColor="#121212"
+			android:id="@+id/pfm15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Oscila seu humor conforme a situação."
+			android:textColor="#242424"
+			android:id="@+id/pfm16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - É Correto na Profissão."
+			android:textColor="#101010"
+			android:id="@+id/pfm17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Se sacrifica pessoalmente"
+			android:textColor="#000000"
+			android:id="@+id/pfm18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Se esquiva de conflitos"
+			android:textColor="#000000"
+			android:id="@+id/pfm19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Não Ocioso(Desocupado/Preguiçoso)"
+			android:textColor="#040404"
+			android:id="@+id/pfm20"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="21 - Criativo"
+			android:textColor="#000000"
+			android:id="@+id/pfm21"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="22 - Sensível Emotivamente"
+			android:textColor="#373737"
+			android:id="@+id/pfm22"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="23 - Pensador"
+			android:textColor="#000000"
+			android:id="@+id/pfm23"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="24 - Revive acontecimentos e desições passadas"
+			android:textColor="#141414"
+			android:id="@+id/pfm24"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="25 - Cumpridor de suas responsabilidades"
+			android:textColor="#141414"
+			android:id="@+id/pfm25"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="26 - Evita ficar em evidência"
+			android:textColor="#121212"
+			android:id="@+id/pfm26"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="27 - Reservado quanto a expor suas Idéias"
+			android:textColor="#242424"
+			android:id="@+id/pfm27"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="28 - Fala pouco mais é muito preciso no que diz."
+			android:textColor="#101010"
+			android:id="@+id/pfm28"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="29 - Não se compromete a fazer mais do que pode"
+			android:textColor="#000000"
+			android:id="@+id/pfm29"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="30 - Introspectivo"
+			android:textColor="#000000"
+			android:id="@+id/pfm30"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 6) Sexto Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:textColor="#000000"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Egocêntrico"
+			android:textColor="#000000"
+			android:id="@+id/pnm1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Inclinado a Auto-Análise Complacente."
+			android:textColor="#000000"
+			android:id="@+id/pnm2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Interrese Excessivo pela sua condição física"
+			android:textColor="#000000"
+			android:id="@+id/pnm3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Fica alimentando desejo de Vingança"
+			android:textColor="#000000"
+			android:id="@+id/pnm4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Hipocodríaco"
+			android:textColor="#000000"
+			android:id="@+id/pnm5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Se ofende muito Facilmente"
+			android:textColor="#000000"
+			android:id="@+id/pnm6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Desconfiado"
+			android:textColor="#000000"
+			android:id="@+id/pnm7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Dado a suposição desfavorável"
+			android:textColor="#000000"
+			android:id="@+id/pnm8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Dificilmente Perdoa"
+			android:textColor="#000000"
+			android:id="@+id/pnm9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Dotado de Autocomiseração"
+			android:textColor="#000000"
+			android:id="@+id/pnm10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Pessimista."
+			android:textColor="#373737"
+			android:id="@+id/pnm11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Inseguro"
+			android:textColor="#000000"
+			android:id="@+id/pnm12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Temeroso"
+			android:textColor="#141414"
+			android:id="@+id/pnm13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Crítico Inflexível"
+			android:textColor="#141414"
+			android:id="@+id/pnm14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Depressivo"
+			android:textColor="#121212"
+			android:id="@+id/pnm15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Foge da realidade e entra em desvaneio."
+			android:textColor="#242424"
+			android:id="@+id/pnm16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Mau Humorado(Amuado)"
+			android:textColor="#101010"
+			android:id="@+id/pnm17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Deixa-se levar a mórbida condição mentais"
+			android:textColor="#000000"
+			android:id="@+id/pnm18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Acha que sempre estão Conspirando contra ele"
+			android:textColor="#000000"
+			android:id="@+id/pnm19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Tudo que afeta é algo capital"
+			android:textColor="#040404"
+			android:id="@+id/pnm20"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text=" 7) Sétimo Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:textColor="#000000"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Calmo"
+			android:textColor="#000000"
+			android:id="@+id/pff1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Frio"
+			android:textColor="#000000"
+			android:id="@+id/pff2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Bem Equilibrado"
+			android:textColor="#000000"
+			android:id="@+id/pff3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - É Todo razão"
+			android:textColor="#000000"
+			android:id="@+id/pff4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Mantém as emoções sob controle"
+			android:textColor="#000000"
+			android:id="@+id/pff5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Racional"
+			android:textColor="#000000"
+			android:id="@+id/pff6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Raramente explode em raiva ou riso"
+			android:textColor="#000000"
+			android:id="@+id/pff7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Aprecia Artes"
+			android:textColor="#000000"
+			android:id="@+id/pff8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Fino gosto pelas coisas"
+			android:textColor="#000000"
+			android:id="@+id/pff9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Controlador"
+			android:textColor="#000000"
+			android:id="@+id/pff10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Gosta de convívio Social"
+			android:textColor="#373737"
+			android:id="@+id/pff11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Despreucupado com as circunstância em redor"
+			android:textColor="#000000"
+			android:id="@+id/pff12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Sente mais emoção do que demostra"
+			android:textColor="#141414"
+			android:id="@+id/pff13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Prático e Eficiente"
+			android:textColor="#141414"
+			android:id="@+id/pff14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Senso de Humor Mordaz"
+			android:textColor="#121212"
+			android:id="@+id/pff15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Provoca gargalhadas sem esboçar um sorriso"
+			android:textColor="#242424"
+			android:id="@+id/pff16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Cerébro Organizado"
+			android:textColor="#101010"
+			android:id="@+id/pff17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Trabalha bem sob tensão"
+			android:textColor="#000000"
+			android:id="@+id/pff18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Pouco se envolve com as atividades do próximo"
+			android:textColor="#000000"
+			android:id="@+id/pff19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Vida regrada"
+			android:textColor="#040404"
+			android:id="@+id/pff20"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="21 - Tende a rotina"
+			android:textColor="#000000"
+			android:id="@+id/pff21"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="22 - É Mais expectador da vida do que modificador das circustâncias"
+			android:textColor="#373737"
+			android:id="@+id/pff22"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="23 - Metódico. Suas coisas estão sempre Arrumadas."
+			android:textColor="#000000"
+			android:id="@+id/pff23"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="24 - É de bom coração, porém não deixa transparecer"
+			android:textColor="#141414"
+			android:id="@+id/pff24"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="25 - capaz"
+			android:textColor="#141414"
+			android:id="@+id/pff25"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="26 - Cumpridor de suas obrigações e horários"
+			android:textColor="#121212"
+			android:id="@+id/pff26"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="27 - Conciliador"
+			android:textColor="#242424"
+			android:id="@+id/pff27"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="28 - Pacificador Nato"
+			android:textColor="#101010"
+			android:id="@+id/pff28"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="29 - Sabe ouvir com paciência e atenção"
+			android:textColor="#000000"
+			android:id="@+id/pff29"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="30 - Bom conselheiro"
+			android:textColor="#000000"
+			android:id="@+id/pff30"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="8) Oitavo Questionário"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:padding="10dp"
+			android:textColor="#000000"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1 - Moroso"
+			android:textColor="#000000"
+			android:id="@+id/pnf1"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2 - Indolente"
+			android:textColor="#000000"
+			android:id="@+id/pnf2"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="3 - Sem motivação"
+			android:textColor="#000000"
+			android:id="@+id/pnf3"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4 - Provocador"
+			android:textColor="#000000"
+			android:id="@+id/pnf4"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5 - Distante e Gélido"
+			android:textColor="#000000"
+			android:id="@+id/pnf5"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6 - Obstinado"
+			android:textColor="#000000"
+			android:id="@+id/pnf6"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7 - Egoísta"
+			android:textColor="#000000"
+			android:id="@+id/pnf7"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="8 - Indeciso"
+			android:textColor="#000000"
+			android:id="@+id/pnf8"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="9 - Resistente"
+			android:textColor="#000000"
+			android:id="@+id/pnf9"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="10 - Avarento"
+			android:textColor="#000000"
+			android:id="@+id/pnf10"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="11 - Descompromissado."
+			android:textColor="#373737"
+			android:id="@+id/pnf11"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="12 - Quando se sente forçado, torna-se mais vagoroso"
+			android:textColor="#000000"
+			android:id="@+id/pnf12"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="13 - Expectador da vida sem se envolver"
+			android:textColor="#141414"
+			android:id="@+id/pnf13"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="14 - Acomodado"
+			android:textColor="#141414"
+			android:id="@+id/pnf14"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="15 - Usa seu humor contra os outros"
+			android:textColor="#121212"
+			android:id="@+id/pnf15"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="16 - Conservador por Comodismo."
+			android:textColor="#242424"
+			android:id="@+id/pnf16"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="17 - Disfarça suas obstinação com seu humor"
+			android:textColor="#101010"
+			android:id="@+id/pnf17"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="18 - Não se envolve"
+			android:textColor="#000000"
+			android:id="@+id/pnf18"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="19 - Vacila entre o desejo de fazer e de não fazer alguma coisa"
+			android:textColor="#000000"
+			android:id="@+id/pnf19"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="20 - Provocador"
+			android:textColor="#040404"
+			android:id="@+id/pnf20"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Calcular"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:id="@+id/calcular"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

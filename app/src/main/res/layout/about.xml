@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#D2D66C">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="64dp"
+		android:text="Medium Text"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="10dp"
+		android:id="@+id/txtSobre"
+		android:textAlignment="viewStart"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_margin="10dp"
+		android:paddingLeft="10dp"
+		android:textAlignment="gravity"
+		android:id="@+id/txtTexto"
+		android:textColor="#000000"
+		android:layout_marginBottom="25dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Voltar"
+		android:gravity="center|center_vertical"
+		android:layout_gravity="center"
+		android:onClick="voltar_sobre"
+		android:id="@+id/btn_about"/>
+
+</LinearLayout>
+
